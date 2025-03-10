@@ -1,0 +1,15 @@
+document.addEventListener("DOMContentLoaded", () => {
+  document.getElementById('pi-login').innerHTML = "<button onclick='piLogin()'>Login with Pi Network</button>";
+});
+
+function piLogin() {
+  alert('Pi Network login successful!');
+  document.getElementById('pi-login').style.display = 'none';
+  document.getElementById('order-section').style.display = 'block';
+}
+
+function placeOrder() {
+  alert('Your order has been placed successfully. Payment will be done via Pi!');
+  document.getElementById('order-section').style.display = 'none';
+  document.getElementById('order-status').style.display = 'block';
+}

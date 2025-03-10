@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food Dash</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="header">
+    <h1>🚀 Welcome to Food Dash 🍔</h1>
+    <p>Pi-Powered Food Delivery</p>
+  </div>
+
+  <div id="pi-login" class="login-section">
+    <button onclick="piLogin()">Login with Pi Network</button>
+  </div>
+
+  <div id="order-section" class="order-section" style="display:none;">
+    <h2>Place Your Order</h2>
+    <button onclick="placeOrder()">🛒 Order Now</button>
+  </div>
+
+  <div id="order-status" class="order-status" style="display:none;">
+    <p>🚚 Your order is on the way!</p>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
